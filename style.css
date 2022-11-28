@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    /* display: flex; */
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    height: 78vh;
+    width: 160vh;
+    background-image: url(room.jpg);
+    background-repeat: no-repeat;
+}
+.img {
+    width: 40px;
+    height: 40px;
+}
+.box_cat {
+    position:relative;
+    left: 630px;
+    top: 295px;
+
+}
+.message {
+    height: 300px;
+    width: 600px;
+    background-color:aqua;
+    border: 5px solid black;
+    position:relative;
+    left: 100px;
+    top: 40px;
+    opacity: 0.9;
+    text-align:center;
+    font-size: 50px;
+}
